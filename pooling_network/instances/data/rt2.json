@@ -1,0 +1,213 @@
+{
+  "name": "rt2",
+  "objective": -4391.8258928,
+  "components": [
+    {
+      "name": "c1",
+      "lower": 0,
+      "upper": 60.9756,
+      "price": 49.2,
+      "quality": {
+        "q1": 0.82,
+        "q2": 3.0,
+        "q3": 99.2,
+        "q4": 90.5
+      }
+    },
+    {
+      "name": "c2",
+      "lower": 0,
+      "upper": 161.29,
+      "price": 62.0,
+      "quality": {
+        "q1": 0.62,
+        "q2": 0.0,
+        "q3": 87.9,
+        "q4": 83.5
+      }
+    },
+    {
+      "name": "c3",
+      "lower": 0,
+      "upper": 5.0,
+      "price": 300.0,
+      "quality": {
+        "q1": 0.75,
+        "q2": 0.0,
+        "q3": 114.0,
+        "q4": 98.7
+      }
+    }
+  ],
+  "products": [
+    {
+      "name": "p1",
+      "lower": 5,
+      "upper": 300,
+      "price": 190.0,
+      "quality_lower": {
+        "q1": 0.74,
+        "q2": 0,
+        "q3": 95,
+        "q4": 85.0
+      },
+      "quality_upper": {
+        "q1": 0.79,
+        "q2": 3.0,
+        "q3": 114.0,
+        "q4": 98.7
+      }
+    },
+    {
+      "name": "p2",
+      "lower": 5,
+      "upper": 300,
+      "price": 230.0,
+      "quality_lower": {
+        "q1": 0.74,
+        "q2": 0,
+        "q3": 96,
+        "q4": 88.0
+      },
+      "quality_upper": {
+        "q1": 0.79,
+        "q2": 0.9,
+        "q3": 114.0,
+        "q4": 98.7
+      }
+    },
+    {
+      "name": "p3",
+      "lower": 5,
+      "upper": 300,
+      "price": 150.0,
+      "quality_lower": {
+        "q1": 0.74,
+        "q2": 0,
+        "q3": 91,
+        "q4": 83.5
+      },
+      "quality_upper": {
+        "q1": 0.79,
+        "q2": 3.0,
+        "q3": 114.0,
+        "q4": 98.7
+      }
+    }
+  ],
+  "pool_size": {
+    "o1": 12.5,
+    "o2": 17.5
+  },
+  "component_to_pool_fraction": [
+    {
+      "component": "c1",
+      "pool": "o1",
+      "fraction": 1.0
+    },
+    {
+      "component": "c1",
+      "pool": "o2",
+      "fraction": 1.0
+    },
+    {
+      "component": "c2",
+      "pool": "o1",
+      "fraction": 1.0
+    },
+    {
+      "component": "c2",
+      "pool": "o2",
+      "fraction": 1.0
+    },
+    {
+      "component": "c3",
+      "pool": "o1",
+      "fraction": 1.0
+    },
+    {
+      "component": "c3",
+      "pool": "o2",
+      "fraction": 1.0
+    }
+  ],
+  "pool_to_product_bound": [
+    {
+      "pool": "o1",
+      "product": "p1",
+      "bound": 12.5
+    },
+    {
+      "pool": "o1",
+      "product": "p2",
+      "bound": 12.5
+    },
+    {
+      "pool": "o1",
+      "product": "p3",
+      "bound": 12.5
+    },
+    {
+      "pool": "o2",
+      "product": "p1",
+      "bound": 17.5
+    },
+    {
+      "pool": "o2",
+      "product": "p2",
+      "bound": 17.5
+    },
+    {
+      "pool": "o2",
+      "product": "p3",
+      "bound": 17.5
+    }
+  ],
+  "component_to_product_bound": [
+    {
+      "component": "c1",
+      "product": "p1",
+      "bound": 0.0
+    },
+    {
+      "component": "c1",
+      "product": "p2",
+      "bound": 7.5
+    },
+    {
+      "component": "c1",
+      "product": "p3",
+      "bound": 0.0
+    },
+    {
+      "component": "c2",
+      "product": "p1",
+      "bound": 161.29
+    },
+    {
+      "component": "c2",
+      "product": "p2",
+      "bound": 0.0
+    },
+    {
+      "component": "c2",
+      "product": "p3",
+      "bound": 161.29
+    },
+    {
+      "component": "c3",
+      "product": "p1",
+      "bound": 7.5
+    },
+    {
+      "component": "c3",
+      "product": "p2",
+      "bound": 0.0
+    },
+    {
+      "component": "c3",
+      "product": "p3",
+      "bound": 0.0
+    }
+  ]
+}

@@ -1,0 +1,1081 @@
+{
+  "name": "foulds4",
+  "components": [
+    {
+      "name": "c1",
+      "lower": 0,
+      "upper": 16.0,
+      "price": 20.0,
+      "quality": {
+        "q1": 1.0
+      }
+    },
+    {
+      "name": "c2",
+      "lower": 0,
+      "upper": 16.0,
+      "price": 19.0,
+      "quality": {
+        "q1": 1.1
+      }
+    },
+    {
+      "name": "c3",
+      "lower": 0,
+      "upper": 16.0,
+      "price": 18.0,
+      "quality": {
+        "q1": 1.2
+      }
+    },
+    {
+      "name": "c4",
+      "lower": 0,
+      "upper": 16.0,
+      "price": 17.0,
+      "quality": {
+        "q1": 1.3
+      }
+    },
+    {
+      "name": "c5",
+      "lower": 0,
+      "upper": 16.0,
+      "price": 16.0,
+      "quality": {
+        "q1": 1.4
+      }
+    },
+    {
+      "name": "c6",
+      "lower": 0,
+      "upper": 16.0,
+      "price": 15.0,
+      "quality": {
+        "q1": 1.5
+      }
+    },
+    {
+      "name": "c7",
+      "lower": 0,
+      "upper": 16.0,
+      "price": 14.0,
+      "quality": {
+        "q1": 1.6
+      }
+    },
+    {
+      "name": "c8",
+      "lower": 0,
+      "upper": 16.0,
+      "price": 13.0,
+      "quality": {
+        "q1": 1.7
+      }
+    },
+    {
+      "name": "c9",
+      "lower": 0,
+      "upper": 16.0,
+      "price": 12.0,
+      "quality": {
+        "q1": 1.8
+      }
+    },
+    {
+      "name": "c10",
+      "lower": 0,
+      "upper": 16.0,
+      "price": 11.0,
+      "quality": {
+        "q1": 1.9
+      }
+    },
+    {
+      "name": "c11",
+      "lower": 0,
+      "upper": 16.0,
+      "price": 10.0,
+      "quality": {
+        "q1": 2.0
+      }
+    }
+  ],
+  "products": [
+    {
+      "name": "p1",
+      "lower": 0,
+      "upper": 1,
+      "price": 20.0,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.05
+      }
+    },
+    {
+      "name": "p2",
+      "lower": 0,
+      "upper": 1,
+      "price": 19.5,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.1
+      }
+    },
+    {
+      "name": "p3",
+      "lower": 0,
+      "upper": 1,
+      "price": 19.0,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.15
+      }
+    },
+    {
+      "name": "p4",
+      "lower": 0,
+      "upper": 1,
+      "price": 18.5,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.2
+      }
+    },
+    {
+      "name": "p5",
+      "lower": 0,
+      "upper": 1,
+      "price": 18.0,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.25
+      }
+    },
+    {
+      "name": "p6",
+      "lower": 0,
+      "upper": 1,
+      "price": 17.5,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.3
+      }
+    },
+    {
+      "name": "p7",
+      "lower": 0,
+      "upper": 1,
+      "price": 17.0,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.35
+      }
+    },
+    {
+      "name": "p8",
+      "lower": 0,
+      "upper": 1,
+      "price": 16.5,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.4
+      }
+    },
+    {
+      "name": "p9",
+      "lower": 0,
+      "upper": 1,
+      "price": 16.0,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.45
+      }
+    },
+    {
+      "name": "p10",
+      "lower": 0,
+      "upper": 1,
+      "price": 15.5,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.5
+      }
+    },
+    {
+      "name": "p11",
+      "lower": 0,
+      "upper": 1,
+      "price": 15.0,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.55
+      }
+    },
+    {
+      "name": "p12",
+      "lower": 0,
+      "upper": 1,
+      "price": 14.5,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.6
+      }
+    },
+    {
+      "name": "p13",
+      "lower": 0,
+      "upper": 1,
+      "price": 14.0,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.65
+      }
+    },
+    {
+      "name": "p14",
+      "lower": 0,
+      "upper": 1,
+      "price": 13.5,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.7
+      }
+    },
+    {
+      "name": "p15",
+      "lower": 0,
+      "upper": 1,
+      "price": 13.0,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.75
+      }
+    },
+    {
+      "name": "p16",
+      "lower": 0,
+      "upper": 1,
+      "price": 12.5,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.8
+      }
+    }
+  ],
+  "pool_size": {
+    "o1": 16.0,
+    "o2": 16.0,
+    "o3": 16.0,
+    "o4": 16.0,
+    "o5": 16.0,
+    "o6": 16.0,
+    "o7": 16.0,
+    "o8": 16.0
+  },
+  "component_to_pool_fraction": [
+    {
+      "component": "c1",
+      "pool": "o1",
+      "fraction": 1.0
+    },
+    {
+      "component": "c2",
+      "pool": "o2",
+      "fraction": 1.0
+    },
+    {
+      "component": "c2",
+      "pool": "o3",
+      "fraction": 1.0
+    },
+    {
+      "component": "c3",
+      "pool": "o3",
+      "fraction": 1.0
+    },
+    {
+      "component": "c3",
+      "pool": "o4",
+      "fraction": 1.0
+    },
+    {
+      "component": "c3",
+      "pool": "o5",
+      "fraction": 1.0
+    },
+    {
+      "component": "c4",
+      "pool": "o1",
+      "fraction": 1.0
+    },
+    {
+      "component": "c4",
+      "pool": "o4",
+      "fraction": 1.0
+    },
+    {
+      "component": "c4",
+      "pool": "o6",
+      "fraction": 1.0
+    },
+    {
+      "component": "c4",
+      "pool": "o7",
+      "fraction": 1.0
+    },
+    {
+      "component": "c5",
+      "pool": "o2",
+      "fraction": 1.0
+    },
+    {
+      "component": "c5",
+      "pool": "o3",
+      "fraction": 1.0
+    },
+    {
+      "component": "c5",
+      "pool": "o5",
+      "fraction": 1.0
+    },
+    {
+      "component": "c5",
+      "pool": "o8",
+      "fraction": 1.0
+    },
+    {
+      "component": "c6",
+      "pool": "o3",
+      "fraction": 1.0
+    },
+    {
+      "component": "c6",
+      "pool": "o4",
+      "fraction": 1.0
+    },
+    {
+      "component": "c6",
+      "pool": "o5",
+      "fraction": 1.0
+    },
+    {
+      "component": "c6",
+      "pool": "o6",
+      "fraction": 1.0
+    },
+    {
+      "component": "c7",
+      "pool": "o1",
+      "fraction": 1.0
+    },
+    {
+      "component": "c7",
+      "pool": "o4",
+      "fraction": 1.0
+    },
+    {
+      "component": "c7",
+      "pool": "o6",
+      "fraction": 1.0
+    },
+    {
+      "component": "c7",
+      "pool": "o7",
+      "fraction": 1.0
+    },
+    {
+      "component": "c8",
+      "pool": "o2",
+      "fraction": 1.0
+    },
+    {
+      "component": "c8",
+      "pool": "o5",
+      "fraction": 1.0
+    },
+    {
+      "component": "c8",
+      "pool": "o7",
+      "fraction": 1.0
+    },
+    {
+      "component": "c8",
+      "pool": "o8",
+      "fraction": 1.0
+    },
+    {
+      "component": "c9",
+      "pool": "o6",
+      "fraction": 1.0
+    },
+    {
+      "component": "c9",
+      "pool": "o7",
+      "fraction": 1.0
+    },
+    {
+      "component": "c9",
+      "pool": "o8",
+      "fraction": 1.0
+    },
+    {
+      "component": "c10",
+      "pool": "o1",
+      "fraction": 1.0
+    },
+    {
+      "component": "c10",
+      "pool": "o8",
+      "fraction": 1.0
+    },
+    {
+      "component": "c11",
+      "pool": "o2",
+      "fraction": 1.0
+    }
+  ],
+  "pool_to_product_bound": [
+    {
+      "pool": "o1",
+      "product": "p1",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p1",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p1",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p1",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p1",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p1",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p1",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p1",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p2",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p2",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p2",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p2",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p2",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p2",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p2",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p2",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p3",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p3",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p3",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p3",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p3",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p3",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p3",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p3",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p4",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p4",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p4",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p4",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p4",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p4",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p4",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p4",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p5",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p5",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p5",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p5",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p5",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p5",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p5",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p5",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p6",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p7",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p8",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p9",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p10",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p11",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p12",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p13",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p14",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p15",
+      "bound": 16.0
+    },
+    {
+      "pool": "o1",
+      "product": "p16",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p6",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p7",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p8",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p9",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p10",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p11",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p12",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p13",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p14",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p15",
+      "bound": 16.0
+    },
+    {
+      "pool": "o2",
+      "product": "p16",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p6",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p7",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p8",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p9",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p10",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p11",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p12",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p13",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p14",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p15",
+      "bound": 16.0
+    },
+    {
+      "pool": "o3",
+      "product": "p16",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p6",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p7",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p8",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p9",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p10",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p11",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p12",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p13",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p14",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p15",
+      "bound": 16.0
+    },
+    {
+      "pool": "o4",
+      "product": "p16",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p6",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p7",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p8",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p9",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p10",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p11",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p12",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p13",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p14",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p15",
+      "bound": 16.0
+    },
+    {
+      "pool": "o5",
+      "product": "p16",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p6",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p7",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p8",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p9",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p10",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p11",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p12",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p13",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p14",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p15",
+      "bound": 16.0
+    },
+    {
+      "pool": "o6",
+      "product": "p16",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p6",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p7",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p8",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p9",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p10",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p11",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p12",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p13",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p14",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p15",
+      "bound": 16.0
+    },
+    {
+      "pool": "o7",
+      "product": "p16",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p6",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p7",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p8",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p9",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p10",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p11",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p12",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p13",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p14",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p15",
+      "bound": 16.0
+    },
+    {
+      "pool": "o8",
+      "product": "p16",
+      "bound": 16.0
+    }
+  ],
+  "component_to_product_bound": []
+}

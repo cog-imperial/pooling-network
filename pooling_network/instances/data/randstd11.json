@@ -1,0 +1,3652 @@
+{
+  "name": "randstd11",
+  "author": "Akshay Gupte, written from AMPL.",
+  "components": [
+    {
+      "name": "c1",
+      "lower": 0.0,
+      "upper": 158.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 53.77,
+        "q2": 22.26,
+        "q3": 24.82,
+        "q4": 31.24,
+        "q5": 29.16,
+        "q6": 26.34,
+        "q7": 65.26,
+        "q8": 44.86
+      }
+    },
+    {
+      "name": "c2",
+      "lower": 0.0,
+      "upper": 137.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 22.76,
+        "q2": 18.61,
+        "q3": 34.87,
+        "q4": 35.97,
+        "q5": 48.2,
+        "q6": 33.51,
+        "q7": 11.66,
+        "q8": 48.14
+      }
+    },
+    {
+      "name": "c3",
+      "lower": 0.0,
+      "upper": 99.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 70.97,
+        "q2": 68.07,
+        "q3": 56.83,
+        "q4": 73.2,
+        "q5": 74.25,
+        "q6": 45.9,
+        "q7": 48.96,
+        "q8": 70.09
+      }
+    },
+    {
+      "name": "c4",
+      "lower": 0.0,
+      "upper": 169.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 68.93,
+        "q2": 73.92,
+        "q3": 27.28,
+        "q4": 37.33,
+        "q5": 15.54,
+        "q6": 21.9,
+        "q7": 33.11,
+        "q8": 14.11
+      }
+    },
+    {
+      "name": "c5",
+      "lower": 0.0,
+      "upper": 102.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 40.45,
+        "q2": 67.49,
+        "q3": 30.17,
+        "q4": 48.99,
+        "q5": 41.7,
+        "q6": 8.32,
+        "q7": 26.45,
+        "q8": 53.7
+      }
+    },
+    {
+      "name": "c6",
+      "lower": 0.0,
+      "upper": 80.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 20.09,
+        "q2": 32.03,
+        "q3": 23.2,
+        "q4": 72.87,
+        "q5": 42.61,
+        "q6": 61.26,
+        "q7": 37.62,
+        "q8": 52.26
+      }
+    },
+    {
+      "name": "c7",
+      "lower": 0.0,
+      "upper": 21.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 56.68,
+        "q2": 46.03,
+        "q3": 59.66,
+        "q4": 63.09,
+        "q5": 33.67,
+        "q6": 50.59,
+        "q7": 70.74,
+        "q8": 45.92
+      }
+    },
+    {
+      "name": "c8",
+      "lower": 0.0,
+      "upper": 158.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 19.58,
+        "q2": 55.07,
+        "q3": 15.14,
+        "q4": 22.54,
+        "q5": 55.09,
+        "q6": 50.78,
+        "q7": 68.18,
+        "q8": 74.56
+      }
+    },
+    {
+      "name": "c9",
+      "lower": 0.0,
+      "upper": 109.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 52.8,
+        "q2": 13.72,
+        "q3": 49.75,
+        "q4": 9.43,
+        "q5": 49.39,
+        "q6": 10.52,
+        "q7": 65.55,
+        "q8": 64.43
+      }
+    },
+    {
+      "name": "c10",
+      "lower": 0.0,
+      "upper": 98.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 52.88,
+        "q2": 24.39,
+        "q3": 63.26,
+        "q4": 15.33,
+        "q5": 61.91,
+        "q6": 18.95,
+        "q7": 23.63,
+        "q8": 18.43
+      }
+    },
+    {
+      "name": "c11",
+      "lower": 0.0,
+      "upper": 73.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 69.89,
+        "q2": 41.96,
+        "q3": 28.35,
+        "q4": 51.44,
+        "q5": 73.18,
+        "q6": 52.85,
+        "q7": 70.12,
+        "q8": 68.33
+      }
+    },
+    {
+      "name": "c12",
+      "lower": 0.0,
+      "upper": 123.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 51.46,
+        "q2": 55.38,
+        "q3": 36.08,
+        "q4": 27.96,
+        "q5": 9.07,
+        "q6": 10.1,
+        "q7": 51.25,
+        "q8": 62.42
+      }
+    },
+    {
+      "name": "c13",
+      "lower": 0.0,
+      "upper": 69.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 46.78,
+        "q2": 21.69,
+        "q3": 43.2,
+        "q4": 21.62,
+        "q5": 8.99,
+        "q6": 70.36,
+        "q7": 71.08,
+        "q8": 31.01
+      }
+    },
+    {
+      "name": "c14",
+      "lower": 0.0,
+      "upper": 113.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 74.28,
+        "q2": 8.02,
+        "q3": 20.18,
+        "q4": 44.96,
+        "q5": 74.39,
+        "q6": 17.93,
+        "q7": 15.32,
+        "q8": 69.33
+      }
+    },
+    {
+      "name": "c15",
+      "lower": 0.0,
+      "upper": 71.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 14.38,
+        "q2": 69.56,
+        "q3": 34.64,
+        "q4": 68.56,
+        "q5": 8.86,
+        "q6": 48.41,
+        "q7": 63.98,
+        "q8": 25.16
+      }
+    },
+    {
+      "name": "c16",
+      "lower": 0.0,
+      "upper": 160.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 52.64,
+        "q2": 13.8,
+        "q3": 63.63,
+        "q4": 28.8,
+        "q5": 29.67,
+        "q6": 51.63,
+        "q7": 69.23,
+        "q8": 70.31
+      }
+    },
+    {
+      "name": "c17",
+      "lower": 0.0,
+      "upper": 34.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 26.71,
+        "q2": 63.64,
+        "q3": 32.72,
+        "q4": 8.24,
+        "q5": 24.89,
+        "q6": 14.83,
+        "q7": 18.78,
+        "q8": 8.7
+      }
+    },
+    {
+      "name": "c18",
+      "lower": 0.0,
+      "upper": 10.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 43.37,
+        "q2": 57.12,
+        "q3": 70.32,
+        "q4": 45.46,
+        "q5": 60.31,
+        "q6": 35.34,
+        "q7": 20.28,
+        "q8": 40.85
+      }
+    },
+    {
+      "name": "c19",
+      "lower": 0.0,
+      "upper": 124.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 73.17,
+        "q2": 10.19,
+        "q3": 19.61,
+        "q4": 13.39,
+        "q5": 57.21,
+        "q6": 48.64,
+        "q7": 12.42,
+        "q8": 18.01
+      }
+    },
+    {
+      "name": "c20",
+      "lower": 0.0,
+      "upper": 100.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 27.72,
+        "q2": 53.27,
+        "q3": 55.67,
+        "q4": 8.7,
+        "q5": 34.61,
+        "q6": 29.42,
+        "q7": 39.02,
+        "q8": 28.48
+      }
+    },
+    {
+      "name": "c21",
+      "lower": 0.0,
+      "upper": 128.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 48.28,
+        "q2": 40.42,
+        "q3": 39.52,
+        "q4": 15.3,
+        "q5": 34.15,
+        "q6": 42.77,
+        "q7": 70.68,
+        "q8": 38.22
+      }
+    },
+    {
+      "name": "c22",
+      "lower": 0.0,
+      "upper": 145.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 57.31,
+        "q2": 62.39,
+        "q3": 10.6,
+        "q4": 59.06,
+        "q5": 12.74,
+        "q6": 23.08,
+        "q7": 50.35,
+        "q8": 36.5
+      }
+    },
+    {
+      "name": "c23",
+      "lower": 0.0,
+      "upper": 114.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 42.35,
+        "q2": 36.08,
+        "q3": 54.44,
+        "q4": 15.45,
+        "q5": 34.07,
+        "q6": 54.79,
+        "q7": 49.82,
+        "q8": 37.0
+      }
+    },
+    {
+      "name": "c24",
+      "lower": 0.0,
+      "upper": 77.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 32.01,
+        "q2": 13.62,
+        "q3": 55.18,
+        "q4": 51.56,
+        "q5": 25.88,
+        "q6": 12.67,
+        "q7": 43.18,
+        "q8": 38.56
+      }
+    },
+    {
+      "name": "c25",
+      "lower": 0.0,
+      "upper": 158.0,
+      "price": 0.0,
+      "quality": {
+        "q1": 16.39,
+        "q2": 71.56,
+        "q3": 27.36,
+        "q4": 31.71,
+        "q5": 26.05,
+        "q6": 71.82,
+        "q7": 13.35,
+        "q8": 17.93
+      }
+    }
+  ],
+  "products": [
+    {
+      "name": "p44",
+      "lower": 0.0,
+      "upper": 96.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 32.01,
+        "q2": 13.62,
+        "q3": 55.18,
+        "q4": 51.56,
+        "q5": 25.88,
+        "q6": 12.67,
+        "q7": 43.18,
+        "q8": 38.56
+      },
+      "quality_upper": {
+        "q1": 35.28,
+        "q2": 16.72,
+        "q3": 55.35,
+        "q4": 52.71,
+        "q5": 27.76,
+        "q6": 17.14,
+        "q7": 44.37,
+        "q8": 40.64
+      }
+    },
+    {
+      "name": "p45",
+      "lower": 0.0,
+      "upper": 87.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 41.2,
+        "q2": 30.75,
+        "q3": 53.12,
+        "q4": 21.81,
+        "q5": 28.04,
+        "q6": 36.77,
+        "q7": 48.45,
+        "q8": 49.36
+      },
+      "quality_upper": {
+        "q1": 43.82,
+        "q2": 33.32,
+        "q3": 54.17,
+        "q4": 24.12,
+        "q5": 31.06,
+        "q6": 39.12,
+        "q7": 52.08,
+        "q8": 50.53
+      }
+    },
+    {
+      "name": "p46",
+      "lower": 0.0,
+      "upper": 74.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 47.25,
+        "q2": 21.73,
+        "q3": 41.96,
+        "q4": 22.27,
+        "q5": 10.35,
+        "q6": 67.39,
+        "q7": 70.69,
+        "q8": 31.95
+      },
+      "quality_upper": {
+        "q1": 49.57,
+        "q2": 25.86,
+        "q3": 42.86,
+        "q4": 25.77,
+        "q5": 15.22,
+        "q6": 67.52,
+        "q7": 70.7,
+        "q8": 33.92
+      }
+    },
+    {
+      "name": "p47",
+      "lower": 0.0,
+      "upper": 110.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 54.48,
+        "q2": 28.06,
+        "q3": 33.33,
+        "q4": 39.02,
+        "q5": 30.26,
+        "q6": 32.26,
+        "q7": 66.6,
+        "q8": 45.12
+      },
+      "quality_upper": {
+        "q1": 54.92,
+        "q2": 31.23,
+        "q3": 34.72,
+        "q4": 41.42,
+        "q5": 31.33,
+        "q6": 34.67,
+        "q7": 66.95,
+        "q8": 46.64
+      }
+    },
+    {
+      "name": "p48",
+      "lower": 0.0,
+      "upper": 116.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 73.52,
+        "q2": 8.4,
+        "q3": 21.1,
+        "q4": 44.34,
+        "q5": 73.97,
+        "q6": 18.06,
+        "q7": 15.45,
+        "q8": 68.22
+      },
+      "quality_upper": {
+        "q1": 73.55,
+        "q2": 12.79,
+        "q3": 22.36,
+        "q4": 45.08,
+        "q5": 74.0,
+        "q6": 19.95,
+        "q7": 18.8,
+        "q8": 68.72
+      }
+    },
+    {
+      "name": "p49",
+      "lower": 0.0,
+      "upper": 142.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 14.38,
+        "q2": 69.56,
+        "q3": 34.64,
+        "q4": 68.56,
+        "q5": 8.86,
+        "q6": 45.07,
+        "q7": 63.98,
+        "q8": 25.16
+      },
+      "quality_upper": {
+        "q1": 14.38,
+        "q2": 69.91,
+        "q3": 37.26,
+        "q4": 68.79,
+        "q5": 8.86,
+        "q6": 48.41,
+        "q7": 64.45,
+        "q8": 28.1
+      }
+    },
+    {
+      "name": "p50",
+      "lower": 0.0,
+      "upper": 194.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 50.71,
+        "q2": 24.95,
+        "q3": 48.83,
+        "q4": 13.83,
+        "q5": 46.23,
+        "q6": 20.14,
+        "q7": 62.83,
+        "q8": 55.14
+      },
+      "quality_upper": {
+        "q1": 52.21,
+        "q2": 26.79,
+        "q3": 50.74,
+        "q4": 14.31,
+        "q5": 47.23,
+        "q6": 21.57,
+        "q7": 63.31,
+        "q8": 56.32
+      }
+    },
+    {
+      "name": "p51",
+      "lower": 0.0,
+      "upper": 168.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 42.32,
+        "q2": 38.85,
+        "q3": 40.62,
+        "q4": 54.39,
+        "q5": 54.53,
+        "q6": 41.58,
+        "q7": 39.97,
+        "q8": 55.02
+      },
+      "quality_upper": {
+        "q1": 43.78,
+        "q2": 39.71,
+        "q3": 41.72,
+        "q4": 58.15,
+        "q5": 56.21,
+        "q6": 45.53,
+        "q7": 42.87,
+        "q8": 55.98
+      }
+    },
+    {
+      "name": "p52",
+      "lower": 0.0,
+      "upper": 133.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 21.54,
+        "q2": 15.09,
+        "q3": 16.65,
+        "q4": 10.37,
+        "q5": 9.98,
+        "q6": 9.15,
+        "q7": 12.83,
+        "q8": 15.52
+      },
+      "quality_upper": {
+        "q1": 63.87,
+        "q2": 66.53,
+        "q3": 63.29,
+        "q4": 65.88,
+        "q5": 66.83,
+        "q6": 55.13,
+        "q7": 63.67,
+        "q8": 67.1
+      }
+    },
+    {
+      "name": "p53",
+      "lower": 0.0,
+      "upper": 99.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 54.04,
+        "q2": 24.49,
+        "q3": 26.76,
+        "q4": 34.23,
+        "q5": 29.58,
+        "q6": 27.4,
+        "q7": 59.83,
+        "q8": 42.13
+      },
+      "quality_upper": {
+        "q1": 55.74,
+        "q2": 26.45,
+        "q3": 28.09,
+        "q4": 36.37,
+        "q5": 31.15,
+        "q6": 28.61,
+        "q7": 65.77,
+        "q8": 44.96
+      }
+    },
+    {
+      "name": "p54",
+      "lower": 0.0,
+      "upper": 157.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 15.82,
+        "q2": 8.82,
+        "q3": 11.66,
+        "q4": 9.06,
+        "q5": 9.75,
+        "q6": 9.15,
+        "q7": 12.83,
+        "q8": 9.57
+      },
+      "quality_upper": {
+        "q1": 66.85,
+        "q2": 66.53,
+        "q3": 63.29,
+        "q4": 65.88,
+        "q5": 66.95,
+        "q6": 64.64,
+        "q7": 63.97,
+        "q8": 67.1
+      }
+    },
+    {
+      "name": "p55",
+      "lower": 0.0,
+      "upper": 218.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 40.89,
+        "q2": 53.06,
+        "q3": 27.03,
+        "q4": 43.0,
+        "q5": 39.49,
+        "q6": 15.02,
+        "q7": 36.47,
+        "q8": 52.87
+      },
+      "quality_upper": {
+        "q1": 42.37,
+        "q2": 55.7,
+        "q3": 27.92,
+        "q4": 45.26,
+        "q5": 40.77,
+        "q6": 15.38,
+        "q7": 38.52,
+        "q8": 54.38
+      }
+    },
+    {
+      "name": "p56",
+      "lower": 0.0,
+      "upper": 95.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 42.42,
+        "q2": 22.86,
+        "q3": 55.17,
+        "q4": 20.3,
+        "q5": 52.62,
+        "q6": 25.88,
+        "q7": 25.01,
+        "q8": 28.8
+      },
+      "quality_upper": {
+        "q1": 44.61,
+        "q2": 24.31,
+        "q3": 55.83,
+        "q4": 21.05,
+        "q5": 53.81,
+        "q6": 27.86,
+        "q7": 26.3,
+        "q8": 30.67
+      }
+    },
+    {
+      "name": "p57",
+      "lower": 0.0,
+      "upper": 73.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 16.39,
+        "q2": 71.56,
+        "q3": 27.36,
+        "q4": 31.71,
+        "q5": 26.05,
+        "q6": 71.82,
+        "q7": 13.35,
+        "q8": 17.93
+      },
+      "quality_upper": {
+        "q1": 20.32,
+        "q2": 71.76,
+        "q3": 30.38,
+        "q4": 34.21,
+        "q5": 28.63,
+        "q6": 71.82,
+        "q7": 15.32,
+        "q8": 20.05
+      }
+    },
+    {
+      "name": "p58",
+      "lower": 0.0,
+      "upper": 92.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 15.82,
+        "q2": 8.82,
+        "q3": 11.66,
+        "q4": 9.06,
+        "q5": 9.75,
+        "q6": 9.15,
+        "q7": 12.83,
+        "q8": 9.57
+      },
+      "quality_upper": {
+        "q1": 66.85,
+        "q2": 66.53,
+        "q3": 63.29,
+        "q4": 65.88,
+        "q5": 66.95,
+        "q6": 64.64,
+        "q7": 63.97,
+        "q8": 67.1
+      }
+    },
+    {
+      "name": "p59",
+      "lower": 0.0,
+      "upper": 152.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 15.82,
+        "q2": 8.82,
+        "q3": 11.66,
+        "q4": 9.06,
+        "q5": 9.75,
+        "q6": 9.15,
+        "q7": 12.83,
+        "q8": 9.57
+      },
+      "quality_upper": {
+        "q1": 66.85,
+        "q2": 66.53,
+        "q3": 63.29,
+        "q4": 65.88,
+        "q5": 66.95,
+        "q6": 64.64,
+        "q7": 63.97,
+        "q8": 67.1
+      }
+    },
+    {
+      "name": "p60",
+      "lower": 0.0,
+      "upper": 112.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 21.54,
+        "q2": 15.09,
+        "q3": 16.65,
+        "q4": 10.37,
+        "q5": 9.98,
+        "q6": 9.15,
+        "q7": 12.83,
+        "q8": 15.52
+      },
+      "quality_upper": {
+        "q1": 63.87,
+        "q2": 66.53,
+        "q3": 56.93,
+        "q4": 65.88,
+        "q5": 66.83,
+        "q6": 55.13,
+        "q7": 63.67,
+        "q8": 67.1
+      }
+    },
+    {
+      "name": "p61",
+      "lower": 0.0,
+      "upper": 131.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 49.95,
+        "q2": 48.3,
+        "q3": 37.71,
+        "q4": 21.97,
+        "q5": 20.94,
+        "q6": 25.56,
+        "q7": 60.45,
+        "q8": 50.97
+      },
+      "quality_upper": {
+        "q1": 50.86,
+        "q2": 50.11,
+        "q3": 40.58,
+        "q4": 24.36,
+        "q5": 23.83,
+        "q6": 29.31,
+        "q7": 60.8,
+        "q8": 51.63
+      }
+    },
+    {
+      "name": "p62",
+      "lower": 0.0,
+      "upper": 105.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 56.46,
+        "q2": 57.22,
+        "q3": 46.36,
+        "q4": 48.09,
+        "q5": 39.24,
+        "q6": 25.73,
+        "q7": 50.12,
+        "q8": 66.22
+      },
+      "quality_upper": {
+        "q1": 61.12,
+        "q2": 61.66,
+        "q3": 48.42,
+        "q4": 50.36,
+        "q5": 41.35,
+        "q6": 27.83,
+        "q7": 50.62,
+        "q8": 66.39
+      }
+    },
+    {
+      "name": "p63",
+      "lower": 0.0,
+      "upper": 137.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 26.85,
+        "q2": 17.94,
+        "q3": 36.89,
+        "q4": 32.36,
+        "q5": 48.36,
+        "q6": 30.38,
+        "q7": 18.99,
+        "q8": 50.36
+      },
+      "quality_upper": {
+        "q1": 30.04,
+        "q2": 20.67,
+        "q3": 38.47,
+        "q4": 33.97,
+        "q5": 50.34,
+        "q6": 33.45,
+        "q7": 20.98,
+        "q8": 51.96
+      }
+    },
+    {
+      "name": "p64",
+      "lower": 0.0,
+      "upper": 118.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 54.6,
+        "q2": 48.42,
+        "q3": 36.99,
+        "q4": 29.12,
+        "q5": 30.52,
+        "q6": 21.57,
+        "q7": 26.93,
+        "q8": 18.14
+      },
+      "quality_upper": {
+        "q1": 59.11,
+        "q2": 53.14,
+        "q3": 38.81,
+        "q4": 30.64,
+        "q5": 32.9,
+        "q6": 22.29,
+        "q7": 27.95,
+        "q8": 19.11
+      }
+    },
+    {
+      "name": "p65",
+      "lower": 0.0,
+      "upper": 179.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 17.98,
+        "q2": 63.32,
+        "q3": 21.25,
+        "q4": 27.12,
+        "q5": 40.57,
+        "q6": 61.3,
+        "q7": 40.77,
+        "q8": 46.25
+      },
+      "quality_upper": {
+        "q1": 21.83,
+        "q2": 63.86,
+        "q3": 23.13,
+        "q4": 29.12,
+        "q5": 41.6,
+        "q6": 61.97,
+        "q7": 42.09,
+        "q8": 47.01
+      }
+    },
+    {
+      "name": "p66",
+      "lower": 0.0,
+      "upper": 141.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 63.19,
+        "q2": 72.62,
+        "q3": 27.86,
+        "q4": 39.68,
+        "q5": 20.81,
+        "q6": 19.16,
+        "q7": 31.77,
+        "q8": 22.09
+      },
+      "quality_upper": {
+        "q1": 63.63,
+        "q2": 72.66,
+        "q3": 29.98,
+        "q4": 40.55,
+        "q5": 22.26,
+        "q6": 22.4,
+        "q7": 33.05,
+        "q8": 24.67
+      }
+    },
+    {
+      "name": "p67",
+      "lower": 0.0,
+      "upper": 192.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 19.1,
+        "q2": 55.07,
+        "q3": 14.73,
+        "q4": 22.54,
+        "q5": 55.09,
+        "q6": 50.78,
+        "q7": 68.18,
+        "q8": 74.56
+      },
+      "quality_upper": {
+        "q1": 19.58,
+        "q2": 55.77,
+        "q3": 15.14,
+        "q4": 26.65,
+        "q5": 56.81,
+        "q6": 51.94,
+        "q7": 68.27,
+        "q8": 74.56
+      }
+    },
+    {
+      "name": "p68",
+      "lower": 0.0,
+      "upper": 161.0,
+      "price": 0.0,
+      "quality_lower": {
+        "q1": 52.26,
+        "q2": 16.13,
+        "q3": 61.52,
+        "q4": 27.62,
+        "q5": 30.06,
+        "q6": 50.86,
+        "q7": 69.36,
+        "q8": 67.51
+      },
+      "quality_upper": {
+        "q1": 53.64,
+        "q2": 19.64,
+        "q3": 62.18,
+        "q4": 28.83,
+        "q5": 32.67,
+        "q6": 51.94,
+        "q7": 69.45,
+        "q8": 68.12
+      }
+    }
+  ],
+  "pool_size": {
+    "o26": 103.0,
+    "o27": 100.0,
+    "o28": 102.0,
+    "o29": 52.0,
+    "o30": 66.0,
+    "o31": 70.0,
+    "o32": 124.0,
+    "o33": 125.0,
+    "o34": 122.0,
+    "o35": 81.0,
+    "o36": 108.0,
+    "o37": 120.0,
+    "o38": 86.0,
+    "o39": 81.0,
+    "o40": 70.0,
+    "o41": 89.0,
+    "o42": 116.0,
+    "o43": 92.0
+  },
+  "component_to_pool_fraction": [
+    {
+      "component": "c1",
+      "pool": "o28",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o29",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o30",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o31",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o32",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o33",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o34",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o35",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o36",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o37",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o38",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o39",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o40",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o41",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o42",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c1",
+      "pool": "o43",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c2",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o28",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o29",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o30",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o31",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o32",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o33",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o34",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o35",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o36",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o37",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o38",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o39",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o40",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o41",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o42",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c2",
+      "pool": "o43",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c3",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o28",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o29",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o30",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o31",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o32",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o33",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o34",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o35",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o36",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o37",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o38",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o39",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o40",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o41",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o42",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c3",
+      "pool": "o43",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c4",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o28",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o29",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o30",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o31",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o32",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o33",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o34",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o35",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o36",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o37",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o38",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o39",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o40",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o41",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o42",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c4",
+      "pool": "o43",
+      "fraction": 1.0,
+      "cost": 32.0
+    },
+    {
+      "component": "c5",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o28",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o29",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o30",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o31",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o32",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o33",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o34",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o35",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o36",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o37",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o38",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o39",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o40",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o41",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o42",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c5",
+      "pool": "o43",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c6",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o28",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o29",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o30",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o31",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o32",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o33",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o34",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o35",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o36",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o37",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o38",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o39",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o40",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o41",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o42",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c6",
+      "pool": "o43",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c7",
+      "pool": "o28",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o29",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o30",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o31",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o32",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o33",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o34",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o35",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o36",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o37",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o38",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o39",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o40",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o41",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o42",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c7",
+      "pool": "o43",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c8",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o28",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o29",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o30",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o31",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o32",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o33",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o34",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o35",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o36",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o37",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o38",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o39",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o40",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o41",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o42",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c8",
+      "pool": "o43",
+      "fraction": 1.0,
+      "cost": 23.0
+    },
+    {
+      "component": "c9",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o28",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o29",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o30",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o31",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o32",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o33",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o34",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o35",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o36",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o37",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o38",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o40",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o41",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o42",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c9",
+      "pool": "o43",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c10",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c10",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c10",
+      "pool": "o28",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c10",
+      "pool": "o29",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c10",
+      "pool": "o30",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c10",
+      "pool": "o31",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c10",
+      "pool": "o32",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c10",
+      "pool": "o33",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c10",
+      "pool": "o36",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c10",
+      "pool": "o40",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c10",
+      "pool": "o41",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c10",
+      "pool": "o42",
+      "fraction": 1.0,
+      "cost": 27.0
+    },
+    {
+      "component": "c11",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c11",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c12",
+      "pool": "o34",
+      "fraction": 1.0,
+      "cost": 33.0
+    },
+    {
+      "component": "c12",
+      "pool": "o35",
+      "fraction": 1.0,
+      "cost": 33.0
+    },
+    {
+      "component": "c13",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 25.0
+    },
+    {
+      "component": "c13",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 25.0
+    },
+    {
+      "component": "c14",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c14",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 34.0
+    },
+    {
+      "component": "c15",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 48.0
+    },
+    {
+      "component": "c15",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 48.0
+    },
+    {
+      "component": "c16",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 35.0
+    },
+    {
+      "component": "c16",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 35.0
+    },
+    {
+      "component": "c16",
+      "pool": "o38",
+      "fraction": 1.0,
+      "cost": 35.0
+    },
+    {
+      "component": "c17",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c17",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 40.0
+    },
+    {
+      "component": "c18",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c18",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c18",
+      "pool": "o37",
+      "fraction": 1.0,
+      "cost": 26.0
+    },
+    {
+      "component": "c19",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 9.0
+    },
+    {
+      "component": "c19",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 9.0
+    },
+    {
+      "component": "c20",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 24.0
+    },
+    {
+      "component": "c20",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 24.0
+    },
+    {
+      "component": "c21",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 16.0
+    },
+    {
+      "component": "c21",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 16.0
+    },
+    {
+      "component": "c21",
+      "pool": "o43",
+      "fraction": 1.0,
+      "cost": 16.0
+    },
+    {
+      "component": "c22",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 35.0
+    },
+    {
+      "component": "c22",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 35.0
+    },
+    {
+      "component": "c22",
+      "pool": "o39",
+      "fraction": 1.0,
+      "cost": 35.0
+    },
+    {
+      "component": "c23",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 41.0
+    },
+    {
+      "component": "c23",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 41.0
+    },
+    {
+      "component": "c24",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 35.0
+    },
+    {
+      "component": "c24",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 35.0
+    },
+    {
+      "component": "c25",
+      "pool": "o26",
+      "fraction": 1.0,
+      "cost": 28.0
+    },
+    {
+      "component": "c25",
+      "pool": "o27",
+      "fraction": 1.0,
+      "cost": 28.0
+    },
+    {
+      "component": "c25",
+      "pool": "o39",
+      "fraction": 1.0,
+      "cost": 28.0
+    }
+  ],
+  "pool_to_product_bound": [
+    {
+      "pool": "o26",
+      "product": "p45",
+      "bound": 87.0,
+      "cost": -62.0
+    },
+    {
+      "pool": "o26",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": -19.0
+    },
+    {
+      "pool": "o26",
+      "product": "p47",
+      "bound": 110.0,
+      "cost": -22.0
+    },
+    {
+      "pool": "o26",
+      "product": "p48",
+      "bound": 116.0,
+      "cost": -17.0
+    },
+    {
+      "pool": "o26",
+      "product": "p49",
+      "bound": 142.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o26",
+      "product": "p51",
+      "bound": 168.0,
+      "cost": -52.0
+    },
+    {
+      "pool": "o26",
+      "product": "p55",
+      "bound": 218.0,
+      "cost": -89.0
+    },
+    {
+      "pool": "o26",
+      "product": "p57",
+      "bound": 73.0,
+      "cost": -85.0
+    },
+    {
+      "pool": "o26",
+      "product": "p58",
+      "bound": 92.0,
+      "cost": -90.0
+    },
+    {
+      "pool": "o26",
+      "product": "p59",
+      "bound": 152.0,
+      "cost": -58.0
+    },
+    {
+      "pool": "o26",
+      "product": "p61",
+      "bound": 131.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o26",
+      "product": "p62",
+      "bound": 105.0,
+      "cost": -69.0
+    },
+    {
+      "pool": "o26",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o26",
+      "product": "p64",
+      "bound": 118.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o26",
+      "product": "p65",
+      "bound": 179.0,
+      "cost": -76.0
+    },
+    {
+      "pool": "o26",
+      "product": "p67",
+      "bound": 192.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o26",
+      "product": "p68",
+      "bound": 161.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o27",
+      "product": "p45",
+      "bound": 87.0,
+      "cost": -62.0
+    },
+    {
+      "pool": "o27",
+      "product": "p53",
+      "bound": 99.0,
+      "cost": -61.0
+    },
+    {
+      "pool": "o27",
+      "product": "p54",
+      "bound": 157.0,
+      "cost": -49.0
+    },
+    {
+      "pool": "o27",
+      "product": "p55",
+      "bound": 218.0,
+      "cost": -89.0
+    },
+    {
+      "pool": "o27",
+      "product": "p56",
+      "bound": 95.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o27",
+      "product": "p57",
+      "bound": 73.0,
+      "cost": -85.0
+    },
+    {
+      "pool": "o27",
+      "product": "p59",
+      "bound": 152.0,
+      "cost": -58.0
+    },
+    {
+      "pool": "o27",
+      "product": "p61",
+      "bound": 131.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o27",
+      "product": "p64",
+      "bound": 118.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o27",
+      "product": "p66",
+      "bound": 141.0,
+      "cost": -34.0
+    },
+    {
+      "pool": "o27",
+      "product": "p68",
+      "bound": 161.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o28",
+      "product": "p45",
+      "bound": 87.0,
+      "cost": -62.0
+    },
+    {
+      "pool": "o28",
+      "product": "p50",
+      "bound": 194.0,
+      "cost": -74.0
+    },
+    {
+      "pool": "o28",
+      "product": "p51",
+      "bound": 168.0,
+      "cost": -52.0
+    },
+    {
+      "pool": "o28",
+      "product": "p54",
+      "bound": 157.0,
+      "cost": -49.0
+    },
+    {
+      "pool": "o28",
+      "product": "p58",
+      "bound": 92.0,
+      "cost": -90.0
+    },
+    {
+      "pool": "o28",
+      "product": "p60",
+      "bound": 112.0,
+      "cost": -73.0
+    },
+    {
+      "pool": "o28",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o28",
+      "product": "p64",
+      "bound": 118.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o28",
+      "product": "p65",
+      "bound": 179.0,
+      "cost": -76.0
+    },
+    {
+      "pool": "o28",
+      "product": "p67",
+      "bound": 192.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o28",
+      "product": "p68",
+      "bound": 161.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o29",
+      "product": "p45",
+      "bound": 87.0,
+      "cost": -62.0
+    },
+    {
+      "pool": "o29",
+      "product": "p50",
+      "bound": 194.0,
+      "cost": -74.0
+    },
+    {
+      "pool": "o29",
+      "product": "p52",
+      "bound": 133.0,
+      "cost": -23.0
+    },
+    {
+      "pool": "o29",
+      "product": "p54",
+      "bound": 157.0,
+      "cost": -49.0
+    },
+    {
+      "pool": "o29",
+      "product": "p55",
+      "bound": 218.0,
+      "cost": -89.0
+    },
+    {
+      "pool": "o29",
+      "product": "p56",
+      "bound": 95.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o29",
+      "product": "p58",
+      "bound": 92.0,
+      "cost": -90.0
+    },
+    {
+      "pool": "o29",
+      "product": "p62",
+      "bound": 105.0,
+      "cost": -69.0
+    },
+    {
+      "pool": "o29",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o29",
+      "product": "p64",
+      "bound": 118.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o29",
+      "product": "p67",
+      "bound": 192.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o29",
+      "product": "p68",
+      "bound": 161.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o30",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": -19.0
+    },
+    {
+      "pool": "o30",
+      "product": "p51",
+      "bound": 168.0,
+      "cost": -52.0
+    },
+    {
+      "pool": "o30",
+      "product": "p52",
+      "bound": 133.0,
+      "cost": -23.0
+    },
+    {
+      "pool": "o30",
+      "product": "p53",
+      "bound": 99.0,
+      "cost": -61.0
+    },
+    {
+      "pool": "o30",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o30",
+      "product": "p68",
+      "bound": 161.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o31",
+      "product": "p45",
+      "bound": 87.0,
+      "cost": -62.0
+    },
+    {
+      "pool": "o31",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": -19.0
+    },
+    {
+      "pool": "o31",
+      "product": "p48",
+      "bound": 116.0,
+      "cost": -17.0
+    },
+    {
+      "pool": "o31",
+      "product": "p50",
+      "bound": 194.0,
+      "cost": -74.0
+    },
+    {
+      "pool": "o31",
+      "product": "p51",
+      "bound": 168.0,
+      "cost": -52.0
+    },
+    {
+      "pool": "o31",
+      "product": "p54",
+      "bound": 157.0,
+      "cost": -49.0
+    },
+    {
+      "pool": "o31",
+      "product": "p60",
+      "bound": 112.0,
+      "cost": -73.0
+    },
+    {
+      "pool": "o31",
+      "product": "p61",
+      "bound": 131.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o31",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o31",
+      "product": "p65",
+      "bound": 179.0,
+      "cost": -76.0
+    },
+    {
+      "pool": "o31",
+      "product": "p67",
+      "bound": 192.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o32",
+      "product": "p44",
+      "bound": 96.0,
+      "cost": -35.0
+    },
+    {
+      "pool": "o32",
+      "product": "p47",
+      "bound": 110.0,
+      "cost": -22.0
+    },
+    {
+      "pool": "o32",
+      "product": "p49",
+      "bound": 142.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o32",
+      "product": "p51",
+      "bound": 168.0,
+      "cost": -52.0
+    },
+    {
+      "pool": "o32",
+      "product": "p55",
+      "bound": 218.0,
+      "cost": -89.0
+    },
+    {
+      "pool": "o32",
+      "product": "p57",
+      "bound": 73.0,
+      "cost": -85.0
+    },
+    {
+      "pool": "o32",
+      "product": "p61",
+      "bound": 131.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o32",
+      "product": "p62",
+      "bound": 105.0,
+      "cost": -69.0
+    },
+    {
+      "pool": "o32",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o32",
+      "product": "p66",
+      "bound": 141.0,
+      "cost": -34.0
+    },
+    {
+      "pool": "o32",
+      "product": "p68",
+      "bound": 161.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o33",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": -19.0
+    },
+    {
+      "pool": "o33",
+      "product": "p50",
+      "bound": 194.0,
+      "cost": -74.0
+    },
+    {
+      "pool": "o33",
+      "product": "p53",
+      "bound": 99.0,
+      "cost": -61.0
+    },
+    {
+      "pool": "o33",
+      "product": "p59",
+      "bound": 152.0,
+      "cost": -58.0
+    },
+    {
+      "pool": "o33",
+      "product": "p61",
+      "bound": 131.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o33",
+      "product": "p62",
+      "bound": 105.0,
+      "cost": -69.0
+    },
+    {
+      "pool": "o33",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o34",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": -19.0
+    },
+    {
+      "pool": "o34",
+      "product": "p48",
+      "bound": 116.0,
+      "cost": -17.0
+    },
+    {
+      "pool": "o34",
+      "product": "p52",
+      "bound": 133.0,
+      "cost": -23.0
+    },
+    {
+      "pool": "o34",
+      "product": "p54",
+      "bound": 157.0,
+      "cost": -49.0
+    },
+    {
+      "pool": "o34",
+      "product": "p55",
+      "bound": 218.0,
+      "cost": -89.0
+    },
+    {
+      "pool": "o34",
+      "product": "p56",
+      "bound": 95.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o34",
+      "product": "p57",
+      "bound": 73.0,
+      "cost": -85.0
+    },
+    {
+      "pool": "o34",
+      "product": "p59",
+      "bound": 152.0,
+      "cost": -58.0
+    },
+    {
+      "pool": "o34",
+      "product": "p61",
+      "bound": 131.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o34",
+      "product": "p62",
+      "bound": 105.0,
+      "cost": -69.0
+    },
+    {
+      "pool": "o34",
+      "product": "p66",
+      "bound": 141.0,
+      "cost": -34.0
+    },
+    {
+      "pool": "o34",
+      "product": "p67",
+      "bound": 192.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o35",
+      "product": "p45",
+      "bound": 87.0,
+      "cost": -62.0
+    },
+    {
+      "pool": "o35",
+      "product": "p47",
+      "bound": 110.0,
+      "cost": -22.0
+    },
+    {
+      "pool": "o35",
+      "product": "p48",
+      "bound": 116.0,
+      "cost": -17.0
+    },
+    {
+      "pool": "o35",
+      "product": "p49",
+      "bound": 142.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o35",
+      "product": "p53",
+      "bound": 99.0,
+      "cost": -61.0
+    },
+    {
+      "pool": "o35",
+      "product": "p56",
+      "bound": 95.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o35",
+      "product": "p58",
+      "bound": 92.0,
+      "cost": -90.0
+    },
+    {
+      "pool": "o35",
+      "product": "p60",
+      "bound": 112.0,
+      "cost": -73.0
+    },
+    {
+      "pool": "o35",
+      "product": "p61",
+      "bound": 131.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o35",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o35",
+      "product": "p64",
+      "bound": 118.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o35",
+      "product": "p65",
+      "bound": 179.0,
+      "cost": -76.0
+    },
+    {
+      "pool": "o35",
+      "product": "p66",
+      "bound": 141.0,
+      "cost": -34.0
+    },
+    {
+      "pool": "o36",
+      "product": "p48",
+      "bound": 116.0,
+      "cost": -17.0
+    },
+    {
+      "pool": "o36",
+      "product": "p50",
+      "bound": 194.0,
+      "cost": -74.0
+    },
+    {
+      "pool": "o36",
+      "product": "p52",
+      "bound": 133.0,
+      "cost": -23.0
+    },
+    {
+      "pool": "o36",
+      "product": "p56",
+      "bound": 95.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o36",
+      "product": "p57",
+      "bound": 73.0,
+      "cost": -85.0
+    },
+    {
+      "pool": "o36",
+      "product": "p64",
+      "bound": 118.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o36",
+      "product": "p67",
+      "bound": 192.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o36",
+      "product": "p68",
+      "bound": 161.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o37",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": -19.0
+    },
+    {
+      "pool": "o37",
+      "product": "p50",
+      "bound": 194.0,
+      "cost": -74.0
+    },
+    {
+      "pool": "o37",
+      "product": "p51",
+      "bound": 168.0,
+      "cost": -52.0
+    },
+    {
+      "pool": "o37",
+      "product": "p52",
+      "bound": 133.0,
+      "cost": -23.0
+    },
+    {
+      "pool": "o37",
+      "product": "p53",
+      "bound": 99.0,
+      "cost": -61.0
+    },
+    {
+      "pool": "o37",
+      "product": "p55",
+      "bound": 218.0,
+      "cost": -89.0
+    },
+    {
+      "pool": "o37",
+      "product": "p62",
+      "bound": 105.0,
+      "cost": -69.0
+    },
+    {
+      "pool": "o37",
+      "product": "p65",
+      "bound": 179.0,
+      "cost": -76.0
+    },
+    {
+      "pool": "o37",
+      "product": "p66",
+      "bound": 141.0,
+      "cost": -34.0
+    },
+    {
+      "pool": "o37",
+      "product": "p67",
+      "bound": 192.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o37",
+      "product": "p68",
+      "bound": 161.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o38",
+      "product": "p44",
+      "bound": 96.0,
+      "cost": -35.0
+    },
+    {
+      "pool": "o38",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": -19.0
+    },
+    {
+      "pool": "o38",
+      "product": "p47",
+      "bound": 110.0,
+      "cost": -22.0
+    },
+    {
+      "pool": "o38",
+      "product": "p53",
+      "bound": 99.0,
+      "cost": -61.0
+    },
+    {
+      "pool": "o38",
+      "product": "p56",
+      "bound": 95.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o38",
+      "product": "p58",
+      "bound": 92.0,
+      "cost": -90.0
+    },
+    {
+      "pool": "o38",
+      "product": "p62",
+      "bound": 105.0,
+      "cost": -69.0
+    },
+    {
+      "pool": "o38",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o38",
+      "product": "p64",
+      "bound": 118.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o38",
+      "product": "p66",
+      "bound": 141.0,
+      "cost": -34.0
+    },
+    {
+      "pool": "o38",
+      "product": "p67",
+      "bound": 192.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o39",
+      "product": "p44",
+      "bound": 96.0,
+      "cost": -35.0
+    },
+    {
+      "pool": "o39",
+      "product": "p51",
+      "bound": 168.0,
+      "cost": -52.0
+    },
+    {
+      "pool": "o39",
+      "product": "p55",
+      "bound": 218.0,
+      "cost": -89.0
+    },
+    {
+      "pool": "o39",
+      "product": "p57",
+      "bound": 73.0,
+      "cost": -85.0
+    },
+    {
+      "pool": "o39",
+      "product": "p58",
+      "bound": 92.0,
+      "cost": -90.0
+    },
+    {
+      "pool": "o39",
+      "product": "p65",
+      "bound": 179.0,
+      "cost": -76.0
+    },
+    {
+      "pool": "o40",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": -19.0
+    },
+    {
+      "pool": "o40",
+      "product": "p47",
+      "bound": 110.0,
+      "cost": -22.0
+    },
+    {
+      "pool": "o40",
+      "product": "p52",
+      "bound": 133.0,
+      "cost": -23.0
+    },
+    {
+      "pool": "o40",
+      "product": "p53",
+      "bound": 99.0,
+      "cost": -61.0
+    },
+    {
+      "pool": "o40",
+      "product": "p56",
+      "bound": 95.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o40",
+      "product": "p58",
+      "bound": 92.0,
+      "cost": -90.0
+    },
+    {
+      "pool": "o40",
+      "product": "p61",
+      "bound": 131.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o40",
+      "product": "p62",
+      "bound": 105.0,
+      "cost": -69.0
+    },
+    {
+      "pool": "o40",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o40",
+      "product": "p64",
+      "bound": 118.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o40",
+      "product": "p65",
+      "bound": 179.0,
+      "cost": -76.0
+    },
+    {
+      "pool": "o41",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": -19.0
+    },
+    {
+      "pool": "o41",
+      "product": "p47",
+      "bound": 110.0,
+      "cost": -22.0
+    },
+    {
+      "pool": "o41",
+      "product": "p48",
+      "bound": 116.0,
+      "cost": -17.0
+    },
+    {
+      "pool": "o41",
+      "product": "p50",
+      "bound": 194.0,
+      "cost": -74.0
+    },
+    {
+      "pool": "o41",
+      "product": "p51",
+      "bound": 168.0,
+      "cost": -52.0
+    },
+    {
+      "pool": "o41",
+      "product": "p52",
+      "bound": 133.0,
+      "cost": -23.0
+    },
+    {
+      "pool": "o41",
+      "product": "p53",
+      "bound": 99.0,
+      "cost": -61.0
+    },
+    {
+      "pool": "o41",
+      "product": "p59",
+      "bound": 152.0,
+      "cost": -58.0
+    },
+    {
+      "pool": "o41",
+      "product": "p60",
+      "bound": 112.0,
+      "cost": -73.0
+    },
+    {
+      "pool": "o41",
+      "product": "p62",
+      "bound": 105.0,
+      "cost": -69.0
+    },
+    {
+      "pool": "o41",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o41",
+      "product": "p66",
+      "bound": 141.0,
+      "cost": -34.0
+    },
+    {
+      "pool": "o42",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": -19.0
+    },
+    {
+      "pool": "o42",
+      "product": "p47",
+      "bound": 110.0,
+      "cost": -22.0
+    },
+    {
+      "pool": "o42",
+      "product": "p55",
+      "bound": 218.0,
+      "cost": -89.0
+    },
+    {
+      "pool": "o42",
+      "product": "p56",
+      "bound": 95.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o42",
+      "product": "p57",
+      "bound": 73.0,
+      "cost": -85.0
+    },
+    {
+      "pool": "o42",
+      "product": "p59",
+      "bound": 152.0,
+      "cost": -58.0
+    },
+    {
+      "pool": "o42",
+      "product": "p60",
+      "bound": 112.0,
+      "cost": -73.0
+    },
+    {
+      "pool": "o42",
+      "product": "p61",
+      "bound": 131.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o42",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o43",
+      "product": "p45",
+      "bound": 87.0,
+      "cost": -62.0
+    },
+    {
+      "pool": "o43",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": -19.0
+    },
+    {
+      "pool": "o43",
+      "product": "p48",
+      "bound": 116.0,
+      "cost": -17.0
+    },
+    {
+      "pool": "o43",
+      "product": "p49",
+      "bound": 142.0,
+      "cost": -88.0
+    },
+    {
+      "pool": "o43",
+      "product": "p50",
+      "bound": 194.0,
+      "cost": -74.0
+    },
+    {
+      "pool": "o43",
+      "product": "p51",
+      "bound": 168.0,
+      "cost": -52.0
+    },
+    {
+      "pool": "o43",
+      "product": "p52",
+      "bound": 133.0,
+      "cost": -23.0
+    },
+    {
+      "pool": "o43",
+      "product": "p55",
+      "bound": 218.0,
+      "cost": -89.0
+    },
+    {
+      "pool": "o43",
+      "product": "p56",
+      "bound": 95.0,
+      "cost": -67.0
+    },
+    {
+      "pool": "o43",
+      "product": "p57",
+      "bound": 73.0,
+      "cost": -85.0
+    },
+    {
+      "pool": "o43",
+      "product": "p58",
+      "bound": 92.0,
+      "cost": -90.0
+    },
+    {
+      "pool": "o43",
+      "product": "p59",
+      "bound": 152.0,
+      "cost": -58.0
+    },
+    {
+      "pool": "o43",
+      "product": "p60",
+      "bound": 112.0,
+      "cost": -73.0
+    },
+    {
+      "pool": "o43",
+      "product": "p61",
+      "bound": 131.0,
+      "cost": -48.0
+    },
+    {
+      "pool": "o43",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -54.0
+    },
+    {
+      "pool": "o43",
+      "product": "p66",
+      "bound": 141.0,
+      "cost": -34.0
+    },
+    {
+      "pool": "o43",
+      "product": "p68",
+      "bound": 161.0,
+      "cost": -48.0
+    }
+  ],
+  "component_to_product_bound": [
+    {
+      "component": "c1",
+      "product": "p44",
+      "bound": 96.0,
+      "cost": -3.0
+    },
+    {
+      "component": "c1",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": 13.0
+    },
+    {
+      "component": "c2",
+      "product": "p62",
+      "bound": 105.0,
+      "cost": -42.0
+    },
+    {
+      "component": "c3",
+      "product": "p47",
+      "bound": 110.0,
+      "cost": 1.0
+    },
+    {
+      "component": "c3",
+      "product": "p50",
+      "bound": 194.0,
+      "cost": -51.0
+    },
+    {
+      "component": "c3",
+      "product": "p53",
+      "bound": 99.0,
+      "cost": -38.0
+    },
+    {
+      "component": "c4",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": 13.0
+    },
+    {
+      "component": "c5",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": 15.0
+    },
+    {
+      "component": "c6",
+      "product": "p52",
+      "bound": 133.0,
+      "cost": 3.0
+    },
+    {
+      "component": "c7",
+      "product": "p67",
+      "bound": 192.0,
+      "cost": -33.0
+    },
+    {
+      "component": "c8",
+      "product": "p52",
+      "bound": 133.0,
+      "cost": 0.0
+    },
+    {
+      "component": "c8",
+      "product": "p61",
+      "bound": 131.0,
+      "cost": -25.0
+    },
+    {
+      "component": "c8",
+      "product": "p64",
+      "bound": 118.0,
+      "cost": -65.0
+    },
+    {
+      "component": "c8",
+      "product": "p68",
+      "bound": 161.0,
+      "cost": -25.0
+    },
+    {
+      "component": "c9",
+      "product": "p51",
+      "bound": 168.0,
+      "cost": -12.0
+    },
+    {
+      "component": "c10",
+      "product": "p50",
+      "bound": 194.0,
+      "cost": -47.0
+    },
+    {
+      "component": "c10",
+      "product": "p65",
+      "bound": 179.0,
+      "cost": -49.0
+    },
+    {
+      "component": "c13",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": 6.0
+    },
+    {
+      "component": "c14",
+      "product": "p48",
+      "bound": 116.0,
+      "cost": 17.0
+    },
+    {
+      "component": "c15",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": 29.0
+    },
+    {
+      "component": "c15",
+      "product": "p49",
+      "bound": 142.0,
+      "cost": -40.0
+    },
+    {
+      "component": "c15",
+      "product": "p54",
+      "bound": 157.0,
+      "cost": -1.0
+    },
+    {
+      "component": "c20",
+      "product": "p63",
+      "bound": 137.0,
+      "cost": -30.0
+    },
+    {
+      "component": "c20",
+      "product": "p66",
+      "bound": 141.0,
+      "cost": -10.0
+    },
+    {
+      "component": "c21",
+      "product": "p44",
+      "bound": 96.0,
+      "cost": -19.0
+    },
+    {
+      "component": "c23",
+      "product": "p46",
+      "bound": 74.0,
+      "cost": 22.0
+    },
+    {
+      "component": "c23",
+      "product": "p58",
+      "bound": 92.0,
+      "cost": -49.0
+    },
+    {
+      "component": "c24",
+      "product": "p44",
+      "bound": 96.0,
+      "cost": 0.0
+    },
+    {
+      "component": "c25",
+      "product": "p57",
+      "bound": 73.0,
+      "cost": -57.0
+    }
+  ]
+}

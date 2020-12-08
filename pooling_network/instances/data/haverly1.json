@@ -1,0 +1,94 @@
+{
+  "name": "haverly1",
+  "objective": -400.0,
+  "components": [
+    {
+      "name": "c1",
+      "lower": 0,
+      "upper": 300.0,
+      "price": 6.0,
+      "quality": {
+        "q1": 3.0
+      }
+    },
+    {
+      "name": "c2",
+      "lower": 0,
+      "upper": 300.0,
+      "price": 16.0,
+      "quality": {
+        "q1": 1.0
+      }
+    },
+    {
+      "name": "c3",
+      "lower": 0,
+      "upper": 300.0,
+      "price": 10.0,
+      "quality": {
+        "q1": 2.0
+      }
+    }
+  ],
+  "products": [
+    {
+      "name": "p1",
+      "lower": 0,
+      "upper": 100,
+      "price": 9.0,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 2.5
+      }
+    },
+    {
+      "name": "p2",
+      "lower": 0,
+      "upper": 200,
+      "price": 15.0,
+      "quality_lower": null,
+      "quality_upper": {
+        "q1": 1.5
+      }
+    }
+  ],
+  "pool_size": {
+    "o1": 300.0
+  },
+  "component_to_pool_fraction": [
+    {
+      "component": "c1",
+      "pool": "o1",
+      "fraction": 1.0
+    },
+    {
+      "component": "c2",
+      "pool": "o1",
+      "fraction": 1.0
+    }
+  ],
+  "pool_to_product_bound": [
+    {
+      "pool": "o1",
+      "product": "p1",
+      "bound": 100.0
+    },
+    {
+      "pool": "o1",
+      "product": "p2",
+      "bound": 200.0
+    }
+  ],
+  "component_to_product_bound": [
+    {
+      "component": "c3",
+      "product": "p1",
+      "bound": 100.0
+    },
+    {
+      "component": "c3",
+      "product": "p2",
+      "bound": 200.0
+    }
+  ]
+}
