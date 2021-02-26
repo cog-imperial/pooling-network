@@ -24,6 +24,7 @@ from pooling_network.pooling import (
     compute_gamma_kl_bounds,
     problem_pool_output_qualities,
 )
+from pooling_network.inequalities import _generate_pooling_inequalities
 
 
 def _gradient_cut_if_violated(block: pe.Block, expr, atol: float, diff_vars: List[_GeneralVarData]):
@@ -163,14 +164,22 @@ def _generate_valid_cuts(block: pe.Block, parent: pe.Block, pool_name: str, outp
             yield expr <= 0, cut_info
 
 
-def generate_valid_cuts(block: pe.Block, parent: pe.Block, problem: Network):
+def generate_valid_cuts(block: pe.Block, parent: pe.Block, problem: Network, violation_threshold=1e-5):
     for pool_name, output_name, quality_name in problem_pool_output_qualities(problem):
-        yield from _generate_valid_cuts(block, parent, pool_name, output_name, quality_name, problem)
+        yield from _generate_valid_cuts(block, parent, pool_name, output_name, quality_name, problem, violation_threshold)
 
 
-def add_valid_cuts(block: pe.Block, parent: pe.Block, problem: Network):
+def add_valid_cuts(block: pe.Block, parent: pe.Block, problem: Network, violation_threshold: float = 1e-5,
+                   add_inequalities: bool = False):
     all_cuts_info = []
-    for cut, cut_info in generate_valid_cuts(block, parent, problem):
+    for cut, cut_info in generate_valid_cuts(block, parent, problem, violation_threshold):
         block._cuts.add(cut)
         all_cuts_info.append(cut_info)
+
+    if add_inequalities:
+        for pool_name, output_name, quality_name in problem_pool_output_qualities(problem):
+            for cut, cut_info in _generate_pooling_inequalities(block, parent, pool_name, output_name, quality_name, problem, violation_threshold=violation_threshold):
+                block._cuts.add(cut)
+                all_cuts_info.append(cut_info)
+
     return all_cuts_info

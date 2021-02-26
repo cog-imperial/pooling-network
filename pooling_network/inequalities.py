@@ -11,6 +11,7 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+from typing import Optional
 import pyomo.environ as pe
 from coramin.relaxations.mccormick import PWMcCormickRelaxation
 
@@ -25,8 +26,8 @@ from pooling_network.pooling import (
 )
 
 
-def add_pooling_inequalities(block: pe.Block, parent: pe.Block, pool_name: str, output_name: str, quality_name: str,
-                             problem: Network):
+def _generate_pooling_inequalities(block: pe.Block, parent: pe.Block, pool_name: str, output_name: str,
+                                   quality_name: str, problem: Network, violation_threshold: Optional[float] = None):
     gamma_lower, gamma_upper = compute_gamma_kl_bounds(
         pool_name, output_name, quality_name, problem
     )
@@ -41,6 +42,16 @@ def add_pooling_inequalities(block: pe.Block, parent: pe.Block, pool_name: str, 
     assert gamma_lower is not None and gamma_upper is not None
     assert beta_lower is not None and beta_upper is not None
 
+    cut_info = {
+        'pool': pool_name,
+        'output': output_name,
+        'quality': quality_name,
+        'gamma_lower': gamma_lower,
+        'gamma_upper': gamma_upper,
+        'beta_lower': beta_lower,
+        'beta_upper': beta_upper,
+    }
+
     y = block.y[output_name, quality_name, pool_name]
     x = block.s[pool_name, output_name]
     u = block.u[output_name, quality_name, pool_name]
@@ -52,7 +63,19 @@ def add_pooling_inequalities(block: pe.Block, parent: pe.Block, pool_name: str, 
             (gamma_lower - beta_lower)*(gamma_upper*x - u)
             + beta_lower*(gamma_upper - t)
         )
-        block._inequalities.add(expr <= 0)
+
+        violated = True
+        cut_info['type'] = 'inequality_28'
+        cut_info['viol'] = 0.0
+
+        if violation_threshold is not None:
+            expr_value = pe.value(expr, exception=False)
+            if expr_value is not None:
+                violated = expr_value > violation_threshold
+                cut_info['viol'] = expr_value
+
+        if violated:
+            yield expr <= 0, cut_info
 
     if beta_upper > 0:
         # Eq 22
@@ -62,7 +85,25 @@ def add_pooling_inequalities(block: pe.Block, parent: pe.Block, pool_name: str, 
             + beta_upper*(u - gamma_lower * x)
             - beta_upper*(t - gamma_lower)
         )
-        block._inequalities.add(expr <= 0)
+
+        violated = True
+        cut_info['type'] = 'inequality_22'
+        cut_info['viol'] = 0.0
+
+        if violation_threshold is not None:
+            expr_value = pe.value(expr, exception=False)
+            if expr_value is not None:
+                violated = expr_value > violation_threshold
+                cut_info['viol'] = expr_value
+
+        if violated:
+            yield expr <= 0, cut_info
+
+
+def add_pooling_inequalities(block: pe.Block, parent: pe.Block, pool_name: str, output_name: str, quality_name: str,
+                             problem: Network):
+    for inequality, _ in _generate_pooling_inequalities(block, parent, pool_name, output_name, quality_name, problem):
+        block._inequalities.add(inequality)
 
 
 def _t_bounds(problem):
@@ -176,10 +217,10 @@ def add_all_pooling_inequalities(block: pe.Block, parent: pe.Block, problem: Net
         add_all_pooling_inequalities_variables(block, parent, problem)
         add_all_pooling_cuts_variables(block, parent, problem)
 
-    if add_inequalities:
-        block._inequalities = pe.ConstraintList()
-        block._cuts = pe.ConstraintList()
+    block._inequalities = pe.ConstraintList()
+    block._cuts = pe.ConstraintList()
 
+    if add_inequalities:
         for pool_name, output_name, quality_name in problem_pool_output_qualities(problem):
             add_pooling_inequalities(
                 block, parent, pool_name, output_name, quality_name, problem

@@ -11,6 +11,8 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+import pyomo.environ as pe
+
 from galini.branch_and_bound.node import NodeSolution
 from galini.config import CutsGeneratorOptions, BoolOption
 from galini.cuts import CutsGenerator

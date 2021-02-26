@@ -63,8 +63,8 @@ class PoolingPQFormulationData(_BlockData):
             add_inequalities=add_inequalities
         )
 
-    def add_cuts(self):
-        return add_valid_cuts(self.inequalities, self, self.pooling_problem)
+    def add_cuts(self, add_inequalities=False):
+        return add_valid_cuts(self.inequalities, self, self.pooling_problem, add_inequalities=add_inequalities)
 
     @property
     def flow_input_to_pool_to_output(self):
