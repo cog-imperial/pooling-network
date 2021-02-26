@@ -179,22 +179,32 @@ def epa_case_1(region=1) -> Network:
         )
 
     for i in range(4):
-        net.add_edge('Feed{}'.format(i), 'Pool0', cost=0.0, fixed_cost=0.0)
+        net.add_edge('Feed{}'.format(i), 'Pool0', cost=0.0, fixed_cost=0.0, capacity_upper=1.0)
 
     for j in range(2):
+        pool = net.nodes['Pool0']
+        prod = net.nodes['Product{}'.format(j)]
+        _, pool_cap = pool.capacity
+        _, prod_cap = prod.capacity
+        edge_cap = min(pool_cap, prod_cap)
         net.add_edge(
             'Pool0',
             'Product{}'.format(j),
             cost=0.0,
-            fixed_cost=0.0
+            fixed_cost=0.0,
+            capacity_upper=edge_cap
         )
 
         for i in range(4):
+            feed = net.nodes['Feed{}'.format(i)]
+            _, feed_cap = feed.capacity
+            edge_cap = min(feed_cap, prod_cap)
             net.add_edge(
                 'Feed{}'.format(i+3),
                 'Product{}'.format(j),
                 cost=0.0,
                 fixed_cost=0.0,
+                capacity_upper=edge_cap
             )
 
     net.attr = {
