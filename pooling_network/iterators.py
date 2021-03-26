@@ -13,7 +13,7 @@
 # limitations under the License.
 import pyomo.environ as pe
 
-from pooling_network.block import PoolingPQFormulationData
+from pooling_network.formulation.pq_block import PoolingPQFormulationData
 
 
 def pooling_data_objects(block, descend_into=True, active=None, sort=False):

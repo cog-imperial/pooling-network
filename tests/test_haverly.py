@@ -2,7 +2,7 @@ import numpy as np
 import pyomo.environ as pe
 from galini.relaxations.relax import relax, RelaxationData
 
-from pooling_network.block import PoolingPQFormulation
+from pooling_network.formulation.pq_block import PoolingPQFormulation
 from pooling_network.instances.data import pooling_problem_from_data
 from pooling_network.instances.literature import literature_problem_data
 from pooling_network.pooling import (
@@ -13,9 +13,8 @@ from pooling_network.pooling import (
 def test_haverly1():
     # Solvers setup
     mip_solver = pe.SolverFactory('cplex_direct')
-    global_solver = pe.SolverFactory('gams')
-    global_solver.options['solver'] = 'baron'
-    global_solver.options['tee'] = False
+    global_solver = pe.SolverFactory('gurobi')
+    global_solver.options['NonConvex'] = 2
 
     # Build PQ-formulation
     problem = pooling_problem_from_data(literature_problem_data('haverly1'))

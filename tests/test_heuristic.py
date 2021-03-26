@@ -1,7 +1,7 @@
 import numpy as np
 import pyomo.environ as pe
 
-from pooling_network.block import PoolingPQFormulation
+from pooling_network.formulation.pq_block import PoolingPQFormulation
 from pooling_network.heuristic import (
     add_mip_heuristic,
     derive_fractional_flow_variables,

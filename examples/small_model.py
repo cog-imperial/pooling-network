@@ -1,8 +1,7 @@
 import pyomo.environ as pe
 from pooling_network.instances.literature import literature_problem_data
-from pooling_network.instances.random import random_instances_names, random_instance
 from pooling_network.instances.data import pooling_problem_from_data
-from pooling_network.block import PoolingPQFormulation
+from pooling_network.formulation.pq_block import PoolingPQFormulation
 
 
 

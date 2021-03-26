@@ -19,7 +19,11 @@ from pyomo.core.base.block import declare_custom_block, _BlockData
 from pooling_network.cuts import add_valid_cuts
 from pooling_network.inequalities import add_all_pooling_inequalities
 from pooling_network.network import Network
-from pooling_network.pq import pooling_problem_pq_formulation, minimize_cost_objective, minimize_flow_cost_objective
+from pooling_network.formulation.pq import (
+    pooling_problem_pq_formulation,
+    minimize_cost_objective,
+    minimize_flow_cost_objective
+)
 
 
 @declare_custom_block(name='PoolingPQFormulation')
